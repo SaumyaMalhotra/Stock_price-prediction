@@ -1,33 +1,30 @@
-##Stock Price Prediction Using LSTM and Streamlit
-Overview
+📈 Stock Price Prediction Using LSTM & Streamlit
 
-This project presents a machine learning-based stock price prediction system implemented using Long Short-Term Memory (LSTM) neural networks. The application is deployed using Streamlit to provide an interactive interface for data visualization and prediction.
+🚀 Overview
 
-The model is trained on historical stock market data (Apple Inc.) and can be adapted for other financial time series datasets.
+This project is a machine learning-based stock price prediction system built using Long Short-Term Memory (LSTM) neural networks. The model is trained on historical stock data of Apple Inc. and deployed using Streamlit, providing an interactive and user-friendly web dashboard for analysis and forecasting.
 
-## Features
+The system can also be extended to other financial time-series datasets with minimal changes.
 
-- Interactive stock price visualization dashboard
-- OHLC candlestick chart for historical analysis
-- Real-time styled UI for financial insights
-- Model-based next-day stock prediction
-- Data statistics and trend analysis
+✨ Features
+📊 Interactive stock price visualization dashboard
+📉 OHLC candlestick chart for detailed technical analysis
+⚡ Clean and responsive Streamlit UI
+🔮 Next-day stock price prediction using LSTM model
+📈 Historical trend analysis and statistical insights
 
-## Dashboard Preview
+![image alt](https://github.com/SaumyaMalhotra/Stock_price-prediction/blob/c5c26db814e4c167f2f1094184e35cb5bdb7317f/dashboard.png)
 
-![image alt].(https://github.com/SaumyaMalhotra/Stock_price-prediction/blob/c5c26db814e4c167f2f1094184e35cb5bdb7317f/dashboard.png)
-
-
-
-Technologies Used
-Python
+🧰 Tech Stack
+Python 🐍
 TensorFlow / Keras
 Pandas
 NumPy
 Scikit-learn
 Streamlit
 Matplotlib
-Project Structure
+
+📁 Project Structure
 stock-lstm-app/
 │
 ├── app.py
@@ -43,62 +40,60 @@ stock-lstm-app/
 │
 └── notebooks/
     └── model_training.ipynb
-
     
-Installation Instructions
+⚙️ Installation
 1. Clone the Repository
 git clone https://github.com/your-username/stock-lstm-app.git
 cd stock-lstm-app
-2. Create a Virtual Environment (Optional)
+2. Create Virtual Environment (Optional but Recommended)
 python -m venv venv
-# Windows
+
+Activate environment:
+
+Windows:
 venv\Scripts\activate
 
-# macOS/Linux
+macOS / Linux:
 source venv/bin/activate
+
 3. Install Dependencies
 pip install -r requirements.txt
-Running the Application
+▶️ Run the Application
 
-To launch the Streamlit application, execute the following command:
+Start the Streamlit app using:
 
 streamlit run app.py
-Dataset Information
 
-The dataset used in this project consists of historical Apple Inc. stock price data sourced from Kaggle.
+Then open the URL shown in the terminal (usually http://localhost:8501).
 
-The dataset includes the following attributes:
+📊 Dataset Information
 
+The dataset contains historical stock price data of Apple Inc., sourced from Kaggle.
+
+Key Columns:
 Date
 Open
 High
 Low
 Close
 Volume
-Model Description
 
-The predictive model is built using an LSTM neural network designed for sequential time-series forecasting. The model architecture includes:
+🧠 Model Architecture
 
-LSTM layers for learning temporal dependencies
-Dropout layers to reduce overfitting
-Dense output layer for regression prediction
-MinMaxScaler for feature normalization
-Workflow
-Data acquisition and preprocessing
+The prediction system uses an LSTM-based deep learning model designed for sequential forecasting:
+
+LSTM layers → capture temporal patterns
+Dropout layers → reduce overfitting
+Dense output layer → regression output
+MinMaxScaler → feature normalization
+
+🔄 Workflow
+Data collection & preprocessing
 Feature scaling using MinMaxScaler
-Sequence generation for time-series input
-Model training using LSTM architecture
-Model evaluation and prediction
-Deployment via Streamlit interface
-Future Enhancements
-Integration of real-time stock market APIs
-Extension to multi-stock prediction systems
-Implementation of advanced architectures such as GRU or Transformers
-Cloud deployment using Streamlit Cloud or AWS
+Sequence creation for time-series input
+LSTM model training
+Model evaluation & prediction
+Deployment using Streamlit
+
 Author
-
 Saumya Malhotra
-
-License
-
-This project is licensed under the MIT License.
