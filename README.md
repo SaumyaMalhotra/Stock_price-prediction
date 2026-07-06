@@ -15,7 +15,7 @@ The model is trained on historical stock market data (Apple Inc.) and can be ada
 
 ## Dashboard Preview
 
-![Stock Prediction Dashboard](assets/dashboard.png)
+![Stock Prediction Dashboard](assets.zip/dashboard.png)
 
 
 Technologies Used
