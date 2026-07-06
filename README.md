@@ -27,12 +27,12 @@ Matplotlib
 📁 Project Structure
 stock-lstm-app/
 │
-├── app.py
-├── requirements.txt
-├── README.md
+├── app.py<br><br>
+├── requirements.txt<br><br>
+├── README.md<br><br>
 │
-├── model/
-│   ├── stock_lstm_model.keras
+├── model/<br><br>
+│   ├── stock_lstm_model.keras<br><br>
 │   └── scaler.pkl
 │
 ├── data/
