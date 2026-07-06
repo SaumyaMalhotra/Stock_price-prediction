@@ -15,8 +15,8 @@ The model is trained on historical stock market data (Apple Inc.) and can be ada
 
 ## Dashboard Preview
 
-![Stock Prediction Dashboard](assets.zip/dashboard.png)
-https://github.com/SaumyaMalhotra/Stock_price-prediction/blob/main/dashboard.png?raw=true
+![image alt].(https://github.com/SaumyaMalhotra/Stock_price-prediction/blob/c5c26db814e4c167f2f1094184e35cb5bdb7317f/dashboard.png)
+
 
 
 Technologies Used
