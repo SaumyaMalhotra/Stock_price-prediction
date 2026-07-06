@@ -1,4 +1,4 @@
-Stock Price Prediction Using LSTM and Streamlit
+##Stock Price Prediction Using LSTM and Streamlit
 Overview
 
 This project presents a machine learning-based stock price prediction system implemented using Long Short-Term Memory (LSTM) neural networks. The application is deployed using Streamlit to provide an interactive interface for data visualization and prediction.
@@ -16,6 +16,7 @@ The model is trained on historical stock market data (Apple Inc.) and can be ada
 ## Dashboard Preview
 
 ![Stock Prediction Dashboard](assets.zip/dashboard.png)
+https://github.com/SaumyaMalhotra/Stock_price-prediction/blob/main/dashboard.png?raw=true
 
 
 Technologies Used
