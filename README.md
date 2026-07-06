@@ -5,6 +5,7 @@
 This project is a machine learning-based stock price prediction system built using **Long Short-Term Memory (LSTM)** neural networks. The model is trained on historical stock data of **Apple Inc.** and deployed using **Streamlit**, providing an interactive web dashboard for analysis and forecasting.
 
 The system can also be be extended to other financial time-series datasets with minimal changes.
+Live at : https://stock-lstm1.streamlit.app/
 
 ---
 
